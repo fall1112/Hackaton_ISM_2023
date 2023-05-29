@@ -1,5 +1,7 @@
-name: hackaton
-description: A new Flutter project.
+name: myapp
+description: A exported flutter project from FUNCTION12
+
+
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -19,7 +21,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.0.2 <4.0.0'
+  sdk: '>=2.18.2 <3.0.0'
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -35,6 +37,7 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  google_fonts: ^3.0.1
 
 dev_dependencies:
   flutter_test:
@@ -62,6 +65,163 @@ flutter:
   # assets:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/mobile/images/vector.png
+    - assets/desktop/images/vector-s3s.png
+    - assets/mobile/images/logo-mobile.png
+    - assets/desktop/images/haut-connexion.png
+    - assets/mobile/images/iconamoon-menu-burger-horizontal-duotone.png
+    - assets/desktop/images/bxs-up-arrow.png
+    - assets/desktop/images/mdi-instagram.png
+    - assets/desktop/images/ic-outline-facebook.png
+    - assets/desktop/images/ic-outline-facebook-35o.png
+    - assets/mobile/images/ri-download-line.png
+    - assets/mobile/images/vector-7uF.png
+    - assets/mobile/images/ic-baseline-home.png
+    - assets/desktop/images/ic-outline-facebook-DpR.png
+    - assets/desktop/images/vector-GXo.png
+    - assets/mobile/images/openmoji-return.png
+    - assets/desktop/images/ri-youtube-fill.png
+    - assets/desktop/images/ri-youtube-fill-VNd.png
+    - assets/mobile/images/iconamoon-menu-burger-horizontal-duotone-jbT.png
+    - assets/mobile/images/logo-mobile-s5P.png
+    - assets/desktop/images/mdi-instagram-8HT.png
+    - assets/desktop/images/mdi-bell.png
+    - assets/desktop/images/equalizer-3.png
+    - assets/desktop/images/frame.png
+    - assets/mobile/images/bi-search.png
+    - assets/mobile/images/group-16.png
+    - assets/mobile/images/group-16-2ry.png
+    - assets/desktop/images/alibicom2.png
+    - assets/desktop/images/mdi-instagram-uXj.png
+    - assets/desktop/images/vector-XBb.png
+    - assets/mobile/images/bi-search-DTj.png
+    - assets/desktop/images/aquaman-et-le-royaume-perdu.png
+    - assets/desktop/images/ri-youtube-fill-oLq.png
+    - assets/desktop/images/les-gardiens-de-la-galaxie-vol-3.png
+    - assets/desktop/images/avatar-1.png
+    - assets/mobile/images/hk0jzythfgn35f43pjuhdptnjm0.png
+    - assets/mobile/images/ri-youtube-fill-AZj.png
+    - assets/mobile/images/mdi-instagram-g4V.png
+    - assets/mobile/images/ri-download-line-eay.png
+    - assets/desktop/images/abaca758949038.png
+    - assets/mobile/images/ic-baseline-home-UUu.png
+    - assets/desktop/images/openmoji-return-KN5.png
+    - assets/mobile/images/ic-outline-facebook-6YV.png
+    - assets/mobile/images/polygon-1.png
+    - assets/mobile/images/ca3x0ofikbjppzh8s1alx3gfuzo.png
+    - assets/desktop/images/courtesyofprime-cidls1fgagbovfx01075402still002r33000.png
+    - assets/composant/images/ri-youtube-fill-EaZ.png
+    - assets/composant/images/ic-outline-facebook-2EH.png
+    - assets/desktop/images/ashleigh-cummings-abb-conro.png
+    - assets/composant/images/avatar-1-x8V.png
+    - assets/desktop/images/fast.png
+    - assets/desktop/images/indiana-jones-et-le-cadran-de-la-destine.png
+    - assets/mobile/images/rscl6v8blekgvnnpok6tlw50tp.png
+    - assets/desktop/images/image-5.png
+    - assets/mobile/images/ca3x0ofikbjppzh8s1alx3gfuzo-K3b.png
+    - assets/composant/images/logo.png
+    - assets/composant/images/vector-92M.png
+    - assets/composant/images/mdi-bell-Y4V.png
+    - assets/desktop/images/citadel-first-look-08.png
+    - assets/desktop/images/backgorund-bg.png
+    - assets/mobile/images/ca3x0ofikbjppzh8s1alx3gfuzo-F3T.png
+    - assets/composant/images/mdi-instagram-m1o.png
+    - assets/composant/images/bxs-up-arrow-udo.png
+    - assets/mobile/images/ca3x0ofikbjppzh8s1alx3gfuzo-TfK.png
+    - assets/mobile/images/ca3x0ofikbjppzh8s1alx3gfuzo-1wj.png
+    - assets/desktop/images/spider-man.png
+    - assets/desktop/images/luther.png
+    - assets/mobile/images/rscl6v8blekgvnnpok6tlw50tp-KxR.png
+    - assets/mobile/images/ca3x0ofikbjppzh8s1alx3gfuzo-cuT.png
+    - assets/desktop/images/priyanka-chopra-citadel-official-trailer-2-6425a631d9cac.png
+    - assets/desktop/images/asterixobelixlempiredumilieu.png
+    - assets/mobile/images/rscl6v8blekgvnnpok6tlw50tp-jXb.png
+    - assets/desktop/images/leo-woodall-duke.png
+    - assets/mobile/images/rscl6v8blekgvnnpok6tlw50tp-2U5.png
+    - assets/mobile/images/rscl6v8blekgvnnpok6tlw50tp-9ob.png
+    - assets/desktop/images/we-have-a-ghost.png
+    - assets/mobile/images/hk0jzythfgn35f43pjuhdptnjm0-dcH.png
+    - assets/desktop/images/nikki-amuka-bird-grace.png
+    - assets/mobile/images/t9jgg10cw1dzxedwl54ewkuko6n.png
+    - assets/desktop/images/pretty-guardian-sailor-moon-cosmos-the-movie.png
+    - assets/desktop/images/priyanka-chopra-jonas-nadia-sinh.png
+    - assets/composant/images/rscl6v8blekgvnnpok6tlw50tp-grZ.png
+    - assets/mobile/images/ttmni8xtdshl40aab8lwszjfyql.png
+    - assets/mobile/images/xr2gsp8pm6ft5vgm0i9tswvcz8q.png
+    - assets/mobile/images/ca3x0ofikbjppzh8s1alx3gfuzo-bg.png
+    - assets/mobile/images/t9jgg10cw1dzxedwl54ewkuko6n-D8q.png
+    - assets/mobile/images/rscl6v8blekgvnnpok6tlw50tp-Djj.png
+    - assets/desktop/images/antmanetlaguepequantumania.png
+    - assets/mobile/images/lnrwj9afydi1hccwgxqcakz5rma.png
+    - assets/composant/images/frame-Tnu.png
+    - assets/desktop/images/stanley-tucci-bernard-orlick.png
+    - assets/composant/images/rscl6v8blekgvnnpok6tlw50tp-WGD.png
+    - assets/mobile/images/gboblv33jhgao997kzheafnob52.png
+    - assets/desktop/images/demon-slayer.png
+    - assets/desktop/images/lesley-manville-dahlia-archer.png
+    - assets/mobile/images/netflix.png
+    - assets/mobile/images/rscl6v8blekgvnnpok6tlw50tp-qky.png
+    - assets/desktop/images/the-flash.png
+    - assets/mobile/images/rscl6v8blekgvnnpok6tlw50tp-yG9.png
+    - assets/mobile/images/ehhifk7hoelgfcad4igtagn41ka.png
+    - assets/desktop/images/tirailleurs.png
+    - assets/desktop/images/richard-madden-mason-kane.png
+    - assets/mobile/images/ca3x0ofikbjppzh8s1alx3gfuzo-7Wu.png
+    - assets/desktop/images/junge.png
+    - assets/mobile/images/zilggjo5gwzydl8h4muquofj8r0.png
+    - assets/desktop/images/cedcfd6c92b452c0ecb03a479ecbf9f26-citadelep3.png
+    - assets/desktop/images/murder-mystery.png
+    - assets/desktop/images/citadel-pourquoi-la-serie-de-prime-video-risque-bien-de-devenir-l-une-des-plus-cheres-de-l-histoire.png
+    - assets/desktop/images/roland-moller-davik-silje.png
+    - assets/mobile/images/hk0jzythfgn35f43pjuhdptnjm0-v7o.png
+    - assets/mobile/images/rscl6v8blekgvnnpok6tlw50tp-NVb.png
+    - assets/mobile/images/ttmni8xtdshl40aab8lwszjfyql-Hau.png
+    - assets/desktop/images/citadel-bg.png
+    - assets/mobile/images/rscl6v8blekgvnnpok6tlw50tp-3ch.png
+    - assets/desktop/images/juju-kaisen-0.png
+    - assets/mobile/images/rscl6v8blekgvnnpok6tlw50tp-i7P.png
+    - assets/mobile/images/citadel-1-bg.png
+    - assets/mobile/images/rscl6v8blekgvnnpok6tlw50tp-nwX.png
+    - assets/mobile/images/ttmni8xtdshl40aab8lwszjfyql-DkR.png
+    - assets/mobile/images/jaypwkmge3bqxtgxig9mfxbzogj.png
+    - assets/mobile/images/t9jgg10cw1dzxedwl54ewkuko6n-zz9.png
+    - assets/desktop/images/sacres-momies.png
+    - assets/mobile/images/p4vn80egglzlb5j7g8ss3n9k2pc.png
+    - assets/mobile/images/t9jgg10cw1dzxedwl54ewkuko6n-7UR.png
+    - assets/mobile/images/ttmni8xtdshl40aab8lwszjfyql-dxZ.png
+    - assets/mobile/images/baehnv3qrvsnapukbzxijohqmnw.png
+    - assets/desktop/images/.png
+    - assets/desktop/images/exorsist.png
+    - assets/composant/images/rscl6v8blekgvnnpok6tlw50tp-a8M.png
+    - assets/desktop/images/super-mario-bros-le-film.png
+    - assets/desktop/images/osy-ikhile-carter-spence.png
+    - assets/composant/images/rscl6v8blekgvnnpok6tlw50tp-2k5.png
+    - assets/composant/images/rscl6v8blekgvnnpok6tlw50tp-kvy.png
+    - assets/desktop/images/the-mother.png
+    - assets/mobile/images/rscl6v8blekgvnnpok6tlw50tp-C3f.png
+    - assets/desktop/images/bg.png
+    - assets/mobile/images/rscl6v8blekgvnnpok6tlw50tp-DCq.png
+    - assets/mobile/images/rscl6v8blekgvnnpok6tlw50tp-VU1.png
+    - assets/desktop/images/renfield.png
+    - assets/composant/images/t9jgg10cw1dzxedwl54ewkuko6n-d5w.png
+    - assets/desktop/images/transformers-rise-of-the-beasts.png
+    - assets/composant/images/rscl6v8blekgvnnpok6tlw50tp-NP7.png
+    - assets/mobile/images/rscl6v8blekgvnnpok6tlw50tp-B7K.png
+    - assets/desktop/images/tyler-rake-2.png
+    - assets/desktop/images/citadel-sss-bg.png
+    - assets/composant/images/ttmni8xtdshl40aab8lwszjfyql-ygH.png
+    - assets/desktop/images/miraculous-le-film.png
+    - assets/mobile/images/citadel-sss-1.png
+    - assets/mobile/images/hk0jzythfgn35f43pjuhdptnjm0-49j.png
+    - assets/desktop/images/lelephante20du20magicien.png
+    - assets/composant/images/hk0jzythfgn35f43pjuhdptnjm0-ixm.png
+    - assets/composant/images/ri-download-line-zG5.png
+    - assets/composant/images/bi-search-x9j.png
+    - assets/composant/images/rscl6v8blekgvnnpok6tlw50tp-ge9.png
+    - assets/composant/images/group-16-nZj.png
+    - assets/composant/images/iconamoon-menu-burger-horizontal-duotone-Yhj.png
+    - assets/composant/images/ic-baseline-home-4FF.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
