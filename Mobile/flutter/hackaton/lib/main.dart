@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/utils.dart';
-import 'package:myapp/desktop/citadel.dart';
+//import 'package:myapp/desktop/citadel.dart';
 // import 'package:myapp/desktop/accueil.dart';
 // import 'package:myapp/desktop/connexion.dart';
 // import 'package:myapp/mobile/citadel.dart';
-// import 'package:myapp/mobile/accueil.dart';
+ import 'package:myapp/mobile/accueil.dart';
 // import 'package:myapp/mobile/connexion.dart';
 // import 'package:myapp/mobile/netflix.dart';
 // import 'package:myapp/composant/navbar.dart';
