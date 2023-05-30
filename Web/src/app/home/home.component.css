@@ -1,0 +1,6 @@
+.with__bg__home {
+    background-image: url('/assets/Citadel.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

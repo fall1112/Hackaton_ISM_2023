@@ -1,0 +1,75 @@
+<header class="fixed top-0 flex gap-4 p-4 bg-transparent w-full h-[102px]">
+    <img src="/assets/Logonetflix.png" class="w-[192px]"/>
+    <nav class="flex">
+        <ul class="flex gap-4 items-center">
+            <li class="text-white font-bold">
+                <a routerLink="">Acceuil</a>
+            </li>
+            <li class="text-white ">
+                <a routerLink="">Séries</a>
+            </li>
+            <li class="text-white ">
+                <a routerLink="">Films</a>
+            </li>
+            <li class="text-white ">
+                <a routerLink="">Ajouts récents</a>
+            </li>
+            <li class="text-white">
+                <a routerLink="">Ma liste</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="min-h-[100vh] flex flex-col text-black">
+   <div class="with__bg__home h-[100vh] flex flex-col justify-end text-white px-16 py-16 gap-8">
+        <h2 class="text-8xl  font-bold">C I T A D E L</h2>
+        <p class="text-4xl px-8">
+            #1 Série du moment
+        </p>
+        <p class="max-w-[889px] pr-16 text-xl">
+            Il ya huit ans, Citadel tombait. L'agence d'espionage internationale et indépendante -
+            chargée de maintenir de la sûreté et la sécurité de tous - a été détruite par des agents de Manticore,
+            un puissant syndicat tirant les ficelles dans l'ombre.
+        </p>
+        <a routerLink="/lecture" class="w-36 px-4 py-4 bg-white w-fit text-black font-bold rounded mt-32 flex gap-8 items-center justify-center text-xl">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z" />
+              </svg>
+              Lire
+        </a>
+   </div>
+   <div class="p-4 flex flex-col gap-6">
+        <div class="flex flex-col gap-4">
+            <h3 class="text-xl font-bold">Tendance Actuelles</h3>
+            <div class="overflow-hidden flex gap-2 align-start">
+                <div class="w-[315px] overflow-hidden shrink-0 flex justify-center" *ngFor="let imagelink of tendances">
+                    <img src="/assets/{{imagelink}}" class="object-cover" />
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col gap-4">
+            <h3 class="text-xl font-bold">Au cinéma</h3>
+            <div class="overflow-hidden flex align-start">
+                <div class="w-[570px] overflow-hidden shrink-0 flex justify-center" *ngFor="let imagelink of aucinema">
+                    <img src="/assets/{{imagelink}}" class="object-cover" />
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col gap-4">
+            <h3 class="text-xl font-bold">Ils arrivent bientôt</h3>
+            <div class="overflow-hidden flex align-start gap-4">
+                <div class="w-[315px] overflow-hidden shrink-0 flex justify-center" *ngFor="let imagelink of bientot">
+                    <img src="/assets/{{imagelink}}" class="object-cover" />
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col gap-4">
+            <h3 class="text-xl font-bold">Animations</h3>
+            <div class="overflow-hidden flex align-start gap-4">
+                <div class="w-[315px] overflow-hidden shrink-0 flex justify-center" *ngFor="let imagelink of animations">
+                    <img src="/assets/{{imagelink}}" class="object-cover" />
+                </div>
+            </div>
+        </div>
+   </div>
+</main>

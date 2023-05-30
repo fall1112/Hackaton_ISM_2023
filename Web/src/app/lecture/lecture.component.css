@@ -1,0 +1,6 @@
+.with__bg__home {
+    background-image: url('/assets/Citadel_lecture.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

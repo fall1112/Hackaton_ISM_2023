@@ -1,0 +1,79 @@
+<header class="fixed top-0 flex gap-4 p-4 bg-transparent w-full h-[102px]">
+    <img src="/assets/Logonetflix.png" class="w-[192px]"/>
+    <nav class="flex">
+        <ul class="flex gap-4 items-center">
+            <li class="text-white font-bold">
+                <a routerLink="">Acceuil</a>
+            </li>
+            <li class="text-white ">
+                <a routerLink="">Séries</a>
+            </li>
+            <li class="text-white ">
+                <a routerLink="">Films</a>
+            </li>
+            <li class="text-white ">
+                <a routerLink="">Ajouts récents</a>
+            </li>
+            <li class="text-white">
+                <a routerLink="">Ma liste</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="min-h-[100vh] flex flex-col text-black">
+    <div class="with__bg__home h-[100vh] flex flex-col justify-end text-white px-16 py-2 gap-8">
+         <div class="flex gap-4">
+            <button class="px-8 py-3 bg-white w-fit text-black font-bold rounded flex gap-2 items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z" />
+                  </svg>
+                  
+                Lecture
+            </button>
+            <button class="px-8 py-3 bg-white w-fit text-black font-bold rounded flex gap-2 items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                  </svg>
+              Télécharger
+           </button>
+         </div>
+    </div>
+    <section class="p-8 flex flex-col gap-8">
+        <div class="flex flex-col gap-2">
+            <h1 class="text-3xl font-bold">Citadel Saison 1</h1>
+            <span>Genres: Drame, Action, Espionnage, Aventure</span>
+            <div class="flex gap-4 items-center">
+                <span class="p-1 bg-[#6E6E6E] font-bold text-white rounded">2023</span>
+                <small class="text-[#2F5D31] font-bold">Recommandé à 92%</small>
+            </div>
+            <h2 class="text-2xl font-bold">Synopsis</h2>
+            <p>
+                Et si vous perdiez la mémoire ? Et si un espion ne savait pas qu'il était un espion ? Il y a des années, les meilleurs agents de Citadel, Mason Kane (Richard Madden) et Nadia Sinh (Priyanka Chopra Jonas), se sont fait essuyer la tête. Mais, ils sont rappelés à l'action alors que des forces sinistres émergent du passé. Avec l'aide du maître-espion Bernard Orlick (Stanley Tucci), ces anciens amants doivent se souvenir du passé pour sauver l'avenir.
+            </p>
+        </div>  
+        <div class="flex flex-col gap-4">
+            <h2 class="text-2xl font-bold">Casting</h2>
+            <div class="flex flex-col">
+                <div class="overflow-hidden flex gap-4 align-start">
+                    <div class="w-[245px] overflow-hidden shrink-0 flex justify-center rounded-lg" *ngFor="let imagelink of casting">
+                        <img src="/assets/{{imagelink}}" class="object-cover" />
+                    </div>
+                </div>
+                <div class="overflow-hidden flex gap-4 align-start">
+                    <div class="w-[245px] overflow-hidden shrink-0 py-4 rounded-lg flex flex-col" *ngFor="let actor of actors">
+                       <span class="text-xl font-bold">{{actor.actorName}}</span>
+                       <span>{{actor.roleName}}</span>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </section>
+    <section  class="p-8 flex flex-col gap-8 mt-8">
+        <h2 class="text-2xl font-bold">Gallerie</h2>
+                <div class="overflow-hidden flex gap-4 align-start">
+                    <div class="w-[1071px] overflow-hidden shrink-0 flex justify-center rounded-lg" *ngFor="let imagelink of gallerie">
+                        <img src="/assets/{{imagelink}}" class="object-cover" />
+                    </div>
+                </div>
+    </section>
+ </main>
